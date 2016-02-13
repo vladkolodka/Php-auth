@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+
+DirectoryIndex index.php
+Options -Indexes
+
+ErrorDocument 403 /403.php
+
+<Files user_data>
+ order allow,deny
+ deny from all
+ </Files>
